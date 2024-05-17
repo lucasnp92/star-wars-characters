@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters - Lucas Passos</title>
+    <!--Abaixo usamos o link para começar a linkar os arquivos (index, script e style)-->
+    <link rel="stylesheet" href="style.css">
+    <!--Usando o link:favicon nós criamos o nosso ícone na barra do navegador, depois só escolher o destino do arquivo-->
+    <link rel="shortcut icon" href="./assets/black-and-red-darth-vader-helmet-sticker.png" type="image/x-icon">
+</head>
+<body>
+    <!-- No nosso nosso header vamos ter duas divs, uma com a logo e a outra com os icones -->
+    <header>
+
+        <!-- Aqui usamos uma tag âncora para colocar nossa div da logo, para quando clicarmos na logo ele nos direcionar para a pagina inicial -->
+        <a href="./index.html">
+            <div class="logo">
+                <!-- abaixo inserimos nossa logo que esta salva na pasta assets, o alt='logo' é o texto alternativo caso nao carregue a logo -->
+                <img src="./assets/star-wars-logo.png" alt="logo" class="logo-img">
+                <span class="logo-text">Characters</span>
+            </div>
+        </a>
+
+            <!-- abaixo inserimos os ícone no nosso header, os códigos estão no site fontawesome -->
+        <div class="social-media">
+            <!-- Aqui criamos uma tag âncora para linkar os ícones com as minhas redes sociais -->
+            <!-- O target='blank' é para abrir em uma nova aba quando eu clicar no ícone -->
+            <a href="https://www.instagram.com/lucasnpassos92/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/lucasnp92" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-nazareth-passos-20b259237/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <h2>Conheca todos os personagens de Star Wars em um só lugar</h2>
+
+        <!-- Aqui utilizamos o id porque quando usarmos o JavaScript manipularemos esse elemento -->
+        <div class="main-content" id="main-content" ></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próxima</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyright">Desenvolvido por &copy; Lucas Passos</p>
+    </footer>
+
+    <!-- Abaixo usamos o script para linkar os arquivos (index, script e style) -->
+    <script src="./script.js"></script>
+     <!-- Porque colocamos o script no body ao invés de colocar junto com o link?
+            Nós utilizamos o script para manipular os elementos, então se colocarmos la em cima ele vai ser executado
+            antes mesmo de carregar os elementos, então não é adequado. Ela precisa ser carregada junto com os elementos-->
+    <script src="https://kit.fontawesome.com/3418e896a0.js" crossorigin="anonymous"></script>
+        <!-- Aqui importamos os ícones que foram utilizados -->
+</body>
+</html>
