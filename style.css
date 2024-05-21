@@ -74,6 +74,12 @@ h2 {
     margin-bottom: 20px;
     color: gold;
     font-weight: 300;
+    text-align: center;
+}
+
+.title-text {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .main-content {
@@ -117,10 +123,11 @@ h2 {
     font-family: 'sf distant galaxy', sans-serif;
     color: gold;
     font-size: 1rem;
+    text-align: center;
 }
 
 .buttons {
-    width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -202,8 +209,114 @@ footer {
 
 .character-details {
     font-family: 'sf distant galaxy', sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: lighter;
     color: gold;
+    text-align: center;
+}
 
+@media(max-width: 1036px) {
+    .cards {
+        width: 165px;
+        height: 360px;
+    }
+
+    .character-image {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media(max-width: 786px) {
+    .cards {
+        width: 140px;
+        height: 280px;
+    }
+
+    .character-name {
+        font-size: 14px;
+    }
+
+    .title-text {
+        font-size: 16px;
+    }
+
+    .character-details {
+        font-size: 14px;
+    }
+
+    .modal-content {
+        width: 35vw;
+        height: 62vh;
+    }
+
+    .character-image {
+        width: 160px;
+        height: 160px;
+    }
+
+}
+
+@media(max-width: 536px) {
+    .cards {
+        width: 120px;
+        height: 220px;
+    }
+
+    .character-name {
+        font-size: 12px;
+    }
+
+    .title-text {
+        font-size: 15px;
+    }
+
+    .character-details {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .modal-content {
+        width: 40vw;
+        height: 55vh;
+    }
+
+    .character-image {
+        width: 130px;
+        height: 130px;
+    }
+
+}
+
+@media(max-width: 456px) {
+    .cards {
+        width: 90px;
+        height: 150px;
+    }
+
+    .character-name {
+        font-size: 10px;
+    }
+
+    .title-text {
+        font-size: 15px;
+    }
+
+    .character-details {
+        font-size: 10px;
+    }
+
+    .modal-content {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .character-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social-media {
+        padding-right: 5px;
+    }
 }
