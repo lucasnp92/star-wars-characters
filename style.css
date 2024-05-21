@@ -225,6 +225,10 @@ footer {
         width: 180px;
         height: 180px;
     }
+
+    .title-text {
+        font-size: 20px;
+    }
 }
 
 @media(max-width: 786px) {
