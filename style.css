@@ -48,9 +48,9 @@ header {
 }
 
 .social-media {
-    width: 130px;
+    width: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 i {
@@ -215,10 +215,10 @@ footer {
     text-align: center;
 }
 
-@media(max-width: 1036px) {
+@media(max-width: 1920px) {
     .cards {
-        width: 165px;
-        height: 360px;
+        width: 290px;
+        height: 400px;
     }
 
     .character-image {
@@ -228,6 +228,69 @@ footer {
 
     .title-text {
         font-size: 20px;
+    }
+
+    .modal-content {
+        width: 19vw;
+        height: 45vh;
+    }
+    
+    .character-details {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .cards {
+        width: 230px;
+        height: 380px;
+    }
+
+    .character-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .title-text {
+        font-size: 20px;
+    }
+
+    .modal-content {
+        width: 25vw;
+        height: 65vh;
+    }
+    
+    .character-details {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1036px) {
+        .cards {
+        width: 180px;
+        height: 300px;
+    }
+
+    .character-name {
+        font-size: 14px;
+    }
+
+    .title-text {
+        font-size: 16px;
+    }
+
+    .character-details {
+        font-size: 18px;
+    }
+
+    .modal-content {
+        width: 30vw;
+        height: 60vh;
+    }
+
+    .character-image {
+        width: 160px;
+        height: 160px;
     }
 }
 
@@ -246,12 +309,12 @@ footer {
     }
 
     .character-details {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .modal-content {
         width: 35vw;
-        height: 62vh;
+        height: 45vh;
     }
 
     .character-image {
@@ -264,7 +327,7 @@ footer {
 @media(max-width: 536px) {
     .cards {
         width: 120px;
-        height: 220px;
+        height: 190px;
     }
 
     .character-name {
@@ -281,8 +344,8 @@ footer {
     }
 
     .modal-content {
-        width: 40vw;
-        height: 55vh;
+        width: 45vw;
+        height: 65vh;
     }
 
     .character-image {
@@ -294,12 +357,12 @@ footer {
 
 @media(max-width: 456px) {
     .cards {
-        width: 90px;
-        height: 150px;
+        width: 150px;
+        height: 220px;
     }
 
     .character-name {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .title-text {
@@ -307,20 +370,16 @@ footer {
     }
 
     .character-details {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .modal-content {
-        width: 35vw;
-        height: 50vh;
+        width: 45vw;
+        height: 45vh;
     }
 
     .character-image {
-        width: 100px;
-        height: 100px;
-    }
-
-    .social-media {
-        padding-right: 5px;
+        width: 150px;
+        height: 150px;
     }
 }
