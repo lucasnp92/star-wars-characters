@@ -3,20 +3,22 @@
     <p>May the force be with you!🦾<p/>
 </h1>
 
-## Índice
-  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;|&nbsp;
-  <a href="#-ferramentas">Ferramentas</a>&nbsp;&nbsp;|&nbsp;
-  <a href="#-como-contribuir">Clonar</a>&nbsp;&nbsp;|&nbsp;
-  <a href="#-licença">Licença</a>
+![preview](./assets/preview-project.gif)
 
-## 🚨Sobre
+## Índice
+[Sobre](#🚨-sobre)&nbsp;|
+[Ferramentas](#🔨-ferramentas)&nbsp;|
+[Como Conntribuir](#💻-como-contribuir)&nbsp;|
+[Licença](#📋-licença)&nbsp;|
+
+## 🚨 Sobre
 O projeto traz consigo diversas informações dos personagens da franquia Star Wars, onde é possível navegar entre páginas que, ao clicar em um personagem, se abre um modal com suas respectivas características. Essas informações por sua vez estão sendo obtidas da API [Swapi](https://swapi.dev/). O intuito desse projeto foi de colocar em prática os meus estudos em JavaScript, consumindo a API e manipulando elementos através de JS.
-## 🔨Ferramentas
+## 🔨 Ferramentas
 - HTML
 - CSS
 - JavaScript
 
-## Como Contribuir
+## 💻 Como Contribuir
 
 ```bash
     # Clone o projeto
@@ -39,5 +41,5 @@ O projeto traz consigo diversas informações dos personagens da franquia Star W
     $ yarn
 ```
 
-## 📋Licença
+## 📋 Licença
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](https://github.com/lucasnp92/star-wars-characters/blob/master/LICENSE) para mais detalhes.
